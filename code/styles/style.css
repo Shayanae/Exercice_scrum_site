@@ -80,6 +80,10 @@ footer{
   color:black !important;
 }
 
+.logo-text, .logo-text:hover {
+  color: #7f8481;
+}
+
 .chatHr {
 	width: 100%;
 }
