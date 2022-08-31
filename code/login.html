@@ -17,24 +17,30 @@
 
 <body>
     <main>
+        <h1 class="text-center pt-5">Se connecter</h1>
         <div class="row">
             <div class="col-4"></div>
             <div class="col-4">
                 <form class="mt-5 ">
                     <div class="mb-3">
                         <label for="exampleInputEmail1" class="form-label">Adresse e-mail</label>
-                        <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+                        <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" required>
                     </div>
                     <div class="mb-3">
                         <label for="exampleInputPassword1" class="form-label">Mot de passe</label>
-                        <input type="password" class="form-control" id="exampleInputPassword1">
+                        <input type="password" class="form-control" id="exampleInputPassword1" required>
                     </div>
-                    <div class="mb-3 form-check">
-                        <input type="checkbox" class="form-check-input" id="exampleCheck1">
-                        <label class="form-check-label" for="exampleCheck1">Rester connecter</label>
+                    <div class="row ">
+                        <div class="mb-3  form-check col-6 " style="padding-left: calc(var(--bs-gutter-x) * .5);">
+                            <input type="checkbox" class="form-check-input ms-0" id="exampleCheck1">
+                            <label class="form-check-label" for="exampleCheck1">Rester connecter</label>
+                        </div>
+                        <div class="mb-3 text-end col-6 ">
+                            <a href="#" class="text-decoration-none text-black">Mot de passe oublié ?</a>
+                        </div>
                     </div>
                     <action href="#">
-                        <button type="submit" class="btn btn-danger ">Se connecter</button>
+                        <button type="submit" class="btn btn-danger">Se connecter</button>
                     </action>
                 </form>
             </div>
