@@ -67,6 +67,7 @@ header{
 main{
     background-color: #B6D7B9;
     min-height: 77.2vh;
+    padding-bottom: 2vh;
 }
 footer{
     background-color: #9ABD97;
