@@ -56,3 +56,9 @@ main{
 footer{
     background-color: #9ABD97;
 }
+
+/* Chat */
+
+.chatHr {
+	width: 100%;
+}
