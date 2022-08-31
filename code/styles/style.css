@@ -67,6 +67,7 @@ header{
 main{
     background-color: #B6D7B9;
     min-height: 77.2vh;
+    padding-bottom: 2vh;
 }
 footer{
     background-color: #9ABD97;
@@ -90,7 +91,6 @@ footer{
   -moz-box-shadow: inset 0 0 100px 100px rgba(255, 255, 255, 0.3);
   -webkit-box-shadow: inset 0 0 100px 100px rgba(255, 255, 255, 0.3);
   box-shadow: inset 0 0 100px 100px rgba(255, 255, 255, 0.3);
-  border: 0;
 }
 
 .logo-text, .logo-text:hover {
