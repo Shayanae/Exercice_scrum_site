@@ -29,22 +29,23 @@ footer, header, hgroup, menu, nav, section {
 	display: block;
 }
 body {
-	line-height: 1;
+	  line-height: 1;
     overflow-x: hidden;
+    min-height: 950px;
 }
 body::-webkit-scrollbar {
     width: 12px; /* width of the entire scrollbar */
-  }
+}
   
-  body::-webkit-scrollbar-track {
+body::-webkit-scrollbar-track {
     background: #9ABD97; /* color of the tracking area */
-  }
+}
   
-  body::-webkit-scrollbar-thumb {
+body::-webkit-scrollbar-thumb {
     background-color: #95BF67; /* color of the scroll thumb */
     border-radius: 20px; /* roundness of the scroll thumb */
     border: 3px solid #9ABD97; /* creates padding around scroll thumb */
-  }
+}
 ol, ul {
 	list-style: none;
 }
@@ -65,7 +66,6 @@ header{
 }
 main{
     background-color: #B6D7B9;
-    min-height: 950px;
 }
 footer{
     background-color: #9ABD97;
@@ -78,4 +78,13 @@ footer{
 .btn-color-primary {
   background-color: #95BF67 !important;
   color:black !important;
+}
+
+.chatHr {
+	width: 100%;
+}
+
+.bloc{
+  background-color: #9ABD97;
+  border: solid 2px;
 }
