@@ -70,3 +70,14 @@ main{
 footer{
     background-color: #9ABD97;
 }
+
+#carouselExampleControls {
+  width: 800px;
+  margin-top: 50px;
+}
+
+h1 {
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  font-size: 2rem;
+
+}
