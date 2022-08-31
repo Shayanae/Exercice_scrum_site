@@ -11,31 +11,37 @@
 </head>
 <body>
     <header>
-
-        <nav class="navbar navbar-expand-lg bg-light py-4 px-4">
-            <div class="container-fluid">
-              <a class="navbar-brand" href="#"> Accueil Forum</a>
-              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-              </button>
-              <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
-                  <li class="nav-item">
-                    <a class="nav-link active" aria-current="page" href="#">Retourner sur le site principal</a>
-                  </li>
-                  
-                  
-                  
-                </ul>
-                
-              </div>
+        <div class="row h-50">
+            <div class="col-3 m-4">
+                <a href="index.html" class="fs-3 fw-bold text-decoration-none logo-text">
+                    <img src="../images/Header/logo_TOP_RECETTE.png" alt="Logo TOP Recette" class="h-100 rounded-2 me-2" style="width:150px; height:150px;">
+                    TOP Recette
+                </a>
             </div>
-          </nav>
-
-
-
-
-
+            <div class="col">
+                <div class="d-flex flex-column justify-content-between h-100">
+                    <div class="row p-3">
+                        <div class="col-12">
+                            <div class="d-flex flex-row justify-content-end align-items-center me-4 my-3">
+                                <a href="http://www.facebook.com" class="me-3"><img src="../images/logo_facebook.png" alt="Image de redirection vers le réseau social Facebook" width="48" height="48"></a>
+                                <a href="http://www.instagram.com" class="me-3"><img src="../images/logo_instagram.png" alt="Image de redirection vers le réseau social Instagram" width="48" height="48"></a>
+                                <a href="http://www.tiktok.com" class="me-4"><img src="../images/logo_tik_tok.png" alt="Image de redirection vers le réseau social TikTok" width="48" height="48"></a>
+                                <button type="button" onclick="location.href = 'login.html';" class="btn btn-color-primary px-4 me-4">Connexion</button>
+                                <button type="button" onclick="location.href = 'register.html';" class="btn btn-color-primary px-4">Inscription</button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row p-3">
+                        <div class="d-flex flex-row justify-content-around  align-items-center">
+                            <button type="button" onclick="location.href = 'recipe.html';" class="btn btn-color-primary px-4">Entrées</button>
+                            <button type="button" onclick="location.href = 'recipe.html';" class="btn btn-color-primary px-4">Plats en famille</button>
+                            <button type="button" onclick="location.href = 'recipe.html';" class="btn btn-color-primary px-4">Desserts</button>
+                            <button type="button" onclick="location.href = 'recipe.html';" class="btn btn-color-primary px-4">Snack</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
     </header>
     <main>
 
