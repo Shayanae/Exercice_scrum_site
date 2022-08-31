@@ -70,9 +70,20 @@ main{
 footer{
     background-color: #9ABD97;
 }
+
+.bg-color-grey {
+  background-color: #D9D9D9;
+}
+
+.btn-color-primary {
+  background-color: #95BF67 !important;
+  color:black !important;
+}
+
 .chatHr {
 	width: 100%;
 }
+
 .bloc{
   background-color: #9ABD97;
   border: solid 2px;
