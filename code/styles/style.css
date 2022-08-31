@@ -76,6 +76,15 @@ footer{
   margin-top: 50px;
 }
 
+.recette2 {
+  height: 450px;
+}
+
+.recette3 {
+  height: 450px;
+  width: fit-content;
+}
+
 h2 {
   font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
   font-size: 1  rem;
@@ -91,4 +100,6 @@ h2 {
 
 
 }
+
+
 
