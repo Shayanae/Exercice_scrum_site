@@ -81,7 +81,8 @@ footer{
 }
 
 .logo-text, .logo-text:hover {
-  color: #7f8481;
+  color: #f3f6f4;
+  text-shadow: 1px 1px 3px black;
 }
 
 .chatHr {
