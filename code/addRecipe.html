@@ -11,9 +11,84 @@
 </head>
 <body>
     <header>
+        <div class="row border-bottom border-light border-4">
+                <div class="col-6 p-3">
+                    <a href="mailto:contact@top-recette.fr" class="text-black text-decoration-none fw-bold fs-5 me-3"><img src="../images/Header/email.png" class="me-2" alt="Redirection vers l'adresse de messagerie contact de top recette" width="32" height="32">contact@top-recette.fr</a>
+                </div>
+                <div class="col-6 p-3">
+                    <div class="d-flex flex-row justify-content-end">
+                        <a href="http://www.facebook.com" class="me-3"><img src="../images/logo_facebook.png" alt="Image de redirection vers le réseau social Facebook" width="32" height="32"></a>
+                        <a href="http://www.instagram.com" class="me-3"><img src="../images/logo_instagram.png" alt="Image de redirection vers le réseau social Instagram" width="32" height="32"></a>
+                        <a href="http://www.tiktok.com" class="me-4"><img src="../images/logo_tik_tok.png" alt="Image de redirection vers le réseau social TikTok" width="32" height="32"></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="row h-50">
+            <div class="col-3 m-4">
+                <a href="index.html" class="fs-1 fw-bold text-decoration-none logo-text">
+                    <img src="../images/Header/logo_TOP_RECETTE.png" alt="Logo TOP Recette" class="h-100 rounded-2 me-2" style="width:150px; height:150px;">
+                    TOP Recette
+                </a>
+            </div>
+            <div class="col">
+                <div class="d-flex flex-column justify-content-between h-100">
+                    <div class="row p-3">
+                        <div class="col-12">
+                            <div class="d-flex flex-row justify-content-end align-items-center me-4 my-3">
+                                <button type="button" onclick="location.href = 'login.html';" class="btn btn-color-primary px-4 me-4">Connexion</button>
+                                <button type="button" onclick="location.href = 'register.html';" class="btn btn-color-primary px-4">Inscription</button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row p-3">
+                        <div class="d-flex flex-row justify-content-around  align-items-center">
+                            <button type="button" onclick="location.href = 'recipe.html';" class="btn btn-color-primary px-4">Entrées</button>
+                            <button type="button" onclick="location.href = 'recipe.html';" class="btn btn-color-primary px-4">Plats en famille</button>
+                            <button type="button" onclick="location.href = 'recipe.html';" class="btn btn-color-primary px-4">Desserts</button>
+                            <button type="button" onclick="location.href = 'recipe.html';" class="btn btn-color-primary px-4">Snack</button>
+                        </div>
+                    </div>
+                </div>
 
     </header>
     <main>
+        <div class="row">
+            <div class="col-2"></div>
+            <form action="#" class="col-1">
+                <label for="#"></label>
+                <input type="text" placeholder="user name">
+            </form>
+        </div>
+        <div class="row">
+            <div class="col-2"></div>
+            <form action="#" class="col-1">
+                <label for="#"></label>
+                <input type="text" placeholder="nom du plat">
+            </form>
+        </div>
+        <div class="row pt-5">
+            <div class="col-2"></div>
+            <form action="#" class="col-5">
+                <textarea name="" id="" cols="45" rows="13" placeholder="recette détaillée"></textarea>
+            </form>
+        </div>
+        <div class="row pt-4">
+            <div class="col-2"></div>
+            <div class="col-3">
+            <div class="input-group ">
+                <label class="input-group-text" for="inputGroupFile01">Upload</label>
+                <input type="file" class="form-control" id="inputGroupFile01">
+            </div>
+            </div>
+        </div>
+        <div class="row pt-4">
+            <div class="col-3"></div>
+            <div class="col-1">
+            <button class="btn-color-primary ">envoyer</button>
+            </div>
+    
+        </div>
 
     </main>
     <footer>
