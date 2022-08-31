@@ -72,17 +72,24 @@ footer{
 }
 
 #carouselExampleControls {
-  width: 800px;
+  width: 700px;
   margin-top: 50px;
+}
+
+.recette1 {
+  width: 700px;
+  height: 450px;
 }
 
 .recette2 {
   height: 450px;
+  width: 700px;
 }
 
 .recette3 {
+  width: 700px;
   height: 450px;
-  width: fit-content;
+
 }
 
 h2 {
