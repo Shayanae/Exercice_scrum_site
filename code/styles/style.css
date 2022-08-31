@@ -70,3 +70,12 @@ main{
 footer{
     background-color: #9ABD97;
 }
+
+.bg-color-grey {
+  background-color: #D9D9D9;
+}
+
+.btn-color-grey {
+  background-color: #D9D9D9 !important;
+  color:black !important;
+}
