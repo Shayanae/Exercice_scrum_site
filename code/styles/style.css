@@ -158,3 +158,8 @@ h2 {
 .ftIcon:hover {
   border: #FFFFFF 2px solid;
 }
+
+.filtre{
+  background-color: #9ABD97;
+  border-radius: 20%;
+}
