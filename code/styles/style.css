@@ -79,6 +79,14 @@ footer{
 .btn-color-primary {
   background-color: #95BF67 !important;
   color:black !important;
+  transition: color .15s!important;
+}
+
+.btn-color-primary:hover {
+  -moz-box-shadow: inset 0 0 100px 100px rgba(255, 255, 255, 0.3);
+  -webkit-box-shadow: inset 0 0 100px 100px rgba(255, 255, 255, 0.3);
+  box-shadow: inset 0 0 100px 100px rgba(255, 255, 255, 0.3);
+  border: 0;
 }
 
 .chatHr {
@@ -128,7 +136,12 @@ h2 {
 }
 
 .ftIcon {
-  width: 2em;;
+  width: 2em;
+  border-radius: 50%;
+}
+
+.ftIcon:hover {
+  border: #FFFFFF 2px solid;
 }
 
 
