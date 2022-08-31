@@ -76,8 +76,19 @@ footer{
   margin-top: 50px;
 }
 
-h1 {
+h2 {
   font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-  font-size: 2rem;
+  font-size: 1  rem;
+  
+}
+
+.mainImage {
+
+
+  width: 80%;
+  display: flex;
+  border: 2px solid white;
+
 
 }
+
