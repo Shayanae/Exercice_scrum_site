@@ -1,25 +1,88 @@
 <!DOCTYPE html>
 <html lang="fr">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="styles/style.css">
     <!-- CSS only -->
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx" crossorigin="anonymous">  
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx" crossorigin="anonymous">
     <title>Connexion</title>
 </head>
+<header>
+
+</header>
+
 <body>
-    <header>
-
-    </header>
     <main>
-
+        <h1 class="text-center pt-5">Se connecter</h1>
+        <div class="row">
+            <div class="col-4"></div>
+            <div class="col-4">
+                <form class="mt-5 ">
+                    <div class="mb-3">
+                        <label for="exampleInputEmail1" class="form-label">Adresse e-mail</label>
+                        <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp"
+                            required>
+                    </div>
+                    <div class="mb-3">
+                        <label for="exampleInputPassword1" class="form-label">Mot de passe</label>
+                        <input type="password" class="form-control" id="exampleInputPassword1" required>
+                    </div>
+                    <div class="row ">
+                        <div class="mb-3  form-check col-6 " style="padding-left: calc(var(--bs-gutter-x) * .5);">
+                            <input type="checkbox" class="form-check-input ms-0" id="exampleCheck1">
+                            <label class="form-check-label" for="exampleCheck1">Rester connecter</label>
+                        </div>
+                        <div class="mb-3 text-end col-6 ">
+                            <a href="#" class="text-decoration-none text-black">Mot de passe oublié ?</a>
+                        </div>
+                    </div>
+                        <action href="#">
+                            <button type="submit" class="btn btn-color-primary">Se connecter</button>
+                        </action>
+                </form>
+            </div>
+            <div class="col-4"></div>
+        </div>
     </main>
+
     <footer>
-        
+        <div class="row">
+            <div class="col-10 d-flex flex-row justify-content-around">
+                <a href="index.html" class="text-decoration-none text-white">Accueil</a>
+                <div class="d-flex flex-column text-decoration-none">
+                    <a href="recipe.html" class="text-decoration-none text-white">Entrées</a>
+                    <a href="recipe.html" class="text-decoration-none text-white">Plats en famille</a>
+                    <a href="recipe.html" class="text-decoration-none text-white">Desserts</a>
+                    <a href="recipe.html" class="text-decoration-none text-white">Snacks</a>
+                </div>
+                <a href="forum.html" class="text-decoration-none text-white">Forum</a>
+                <div class="d-flex flex-column">
+                    <a href="#" class="text-decoration-none text-white">CGU</a>
+                    <a href="#" class="text-decoration-none text-white">CGV</a>
+                </div>
+                <a href="contact.html" class="text-decoration-none text-white">Contact</a>
+            </div>
+            <div class="col-2 d-flex flex-column text-white fw-bold align-items-center justify-content-center">
+                <p class="m-0 p-0">25 rue des Cerisiers,<br>
+                    59000 LILLE<br>
+                    Tél : 03 20 00 00 00
+                </p>
+                <div class="d-flex flex-row justify-content-around py-1">
+                    <a href="#"><img src="../code/images/logo_facebook.png" class="mx-2 ftIcon"></a>
+                    <a href="#"><img src="../code/images/logo_instagram.png" class="mx-2 ftIcon"></a>
+                    <a href="#"><img src="../code/images/logo_tik_tok.png" class="mx-2 ftIcon"></a>
+                </div>
+            </div>
+        </div>
     </footer>
     <!-- JavaScript Bundle with Popper -->
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-A3rJD856KowSb7dwlZdYEkO39Gagi7vIsF0jrRAoQmDKKtQBHUuLZ9AsSv4jD4Xa" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-A3rJD856KowSb7dwlZdYEkO39Gagi7vIsF0jrRAoQmDKKtQBHUuLZ9AsSv4jD4Xa" crossorigin="anonymous">
+    </script>
 </body>
+
 </html>
