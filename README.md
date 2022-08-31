@@ -1,1 +1,1 @@
-# Exercice_scrum_site
+# EXERCICE_SCRUM_SITE
